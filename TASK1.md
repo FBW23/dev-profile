@@ -1,8 +1,8 @@
 ## Secret Mission #1 - Get the form to the president...
 
-Create a mini React app where we can create a developer profile.
+Create a mini React app where we can setup a developer profile.
 
-The profile for now should just contain these fields:
+The profile form for now should just contain these fields:
 - firstname
 - lastname
 - email
@@ -10,7 +10,11 @@ The profile for now should just contain these fields:
 
 Use the Formik library to build and validate the form.
 
-Use the components "Field" and "ErrorMessage" from the Formit Library.
+Use the components "Field" and "ErrorMessage" from the Formik Library.
+
+Add a submit handler. Console.log the validated form data. Test a form submit with some dummy values.
+
+### Add validation
 
 Use the Yup library to create heavy validation rules for your input fields. 
 
@@ -22,8 +26,6 @@ Validation rules:
 - Provide different validation messages for required and format check
 
 Link the schema to your Formik component. On every submit Formik will validate your fields then automatically according to this schema. Isn't that super-friendly of it?
-
-Add a submit handler. Console.log the validated form data. Test a form submit with some dummy values.
 
 Once your schema works: Store it as a code snippet for your reference. Recommendation: Use the VSCode Extension "Snippet Creator" from Ryan Olson.
 
