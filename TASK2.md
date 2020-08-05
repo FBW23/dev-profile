@@ -1,6 +1,6 @@
 ## Secret Mission #2 - Make the form heavier...
 
-Let's add some fields speficif for a developer profile.
+Let's add some fields specific for a developer profile.
 
 Add a checkbox group with technologies:
 - you can choose from: HTML / CSS, SCSS, Bootstrap, React, ExpressJS, JWT, Formik, Git... and whatever else you find learn-worthy :)
